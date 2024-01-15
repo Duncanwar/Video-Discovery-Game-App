@@ -5,6 +5,7 @@ import GameGrid from './components/GameGrid'
 import GenreList from './components/GenreList'
 
 function App() {
+  const [selectedGenre,setSelectedGenre] = useState<Genre |null
 
   return <Grid templateAreas={{
     base:`"nav" "main"`,
